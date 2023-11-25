@@ -12,7 +12,9 @@
     "@mdi/font": "^7.3.67",
     "firebase": "^10.6.0",
     "vue": "^3.3.8",
-    "vuefire": "^3.1.18"
+    "vue-router": "^4.0.13",
+    "vuefire": "^3.1.18",
+    "vuetify": "^3.4.3"
   },
   "devDependencies": {
     "@types/node": "^20.9.2",

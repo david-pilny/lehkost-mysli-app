@@ -14,9 +14,15 @@ dependencies:
   vue:
     specifier: ^3.3.8
     version: 3.3.8(typescript@5.2.2)
+  vue-router:
+    specifier: ^4.0.13
+    version: 4.0.13(vue@3.3.8)
   vuefire:
     specifier: ^3.1.18
     version: 3.1.18(firebase@10.6.0)(vue@3.3.8)
+  vuetify:
+    specifier: ^3.4.3
+    version: 3.4.3(typescript@5.2.2)(vue@3.3.8)
 
 devDependencies:
   '@types/node':
@@ -949,6 +955,10 @@ packages:
       '@vue/compiler-dom': 3.3.8
       '@vue/shared': 3.3.8
 
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
+
   /@vue/language-core@1.8.22(typescript@5.2.2):
     resolution: {integrity: sha512-bsMoJzCrXZqGsxawtUea1cLjUT9dZnDsy5TuZ+l1fxRMzUGQUG9+Ypq4w//CqpWmrx7nIAJpw2JVF/t258miRw==}
     peerDependencies:
@@ -1393,6 +1403,15 @@ packages:
       vue: 3.3.8(typescript@5.2.2)
     dev: false
 
+  /vue-router@4.0.13(vue@3.3.8):
+    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      vue: 3.3.8(typescript@5.2.2)
+    dev: false
+
   /vue-template-compiler@2.7.15:
     resolution: {integrity: sha512-yQxjxMptBL7UAog00O8sANud99C6wJF+7kgbcwqkvA38vCGF7HWE66w0ZFnS/kX5gSoJr/PQ4/oS3Ne2pW37Og==}
     dependencies:
@@ -1446,6 +1465,29 @@ packages:
       firebase: 10.6.0
       vue: 3.3.8(typescript@5.2.2)
       vue-demi: 0.14.6(vue@3.3.8)
+    dev: false
+
+  /vuetify@3.4.3(typescript@5.2.2)(vue@3.3.8):
+    resolution: {integrity: sha512-b8yi87Zv4bn2JbaVkkV9uzSRw0fdY/v3ieWne0OTI29w/CNSyLyfHGBCrmx7eD74i562M1j+AwSSRJCX3wF0+Q==}
+    engines: {node: ^12.20 || >=14.13}
+    peerDependencies:
+      typescript: '>=4.7'
+      vite-plugin-vuetify: ^1.0.0-alpha.12
+      vue: ^3.3.0
+      vue-i18n: ^9.0.0
+      webpack-plugin-vuetify: ^2.0.0-alpha.11
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+      vite-plugin-vuetify:
+        optional: true
+      vue-i18n:
+        optional: true
+      webpack-plugin-vuetify:
+        optional: true
+    dependencies:
+      typescript: 5.2.2
+      vue: 3.3.8(typescript@5.2.2)
     dev: false
 
   /webidl-conversions@3.0.1:
