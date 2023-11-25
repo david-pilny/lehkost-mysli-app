@@ -13,6 +13,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@media/*": ["./src/media/*"],
+      "@views/*": ["./src/views/*"],
+      "@/*": ["./src/*"]
+    },
 
     /* Linting */
     "strict": true,
